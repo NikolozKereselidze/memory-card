@@ -62,3 +62,18 @@ button:hover {
     background-color: #f9f9f9;
   }
 }
+
+/* Media Queries */
+@media screen and (max-width: 900px) {
+  body {
+    place-items: start;
+  }
+
+  .score-wrapper {
+    align-items: center !important;
+  }
+
+  .card-wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important;
+  }
+}
