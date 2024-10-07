@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100vw;
+  padding: 1.2rem;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.score-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  gap: 0.6rem;
+}

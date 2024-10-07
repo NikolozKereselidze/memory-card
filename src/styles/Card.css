@@ -1,0 +1,5 @@
+.card,
+.card > button,
+button > img {
+  width: 100%;
+}

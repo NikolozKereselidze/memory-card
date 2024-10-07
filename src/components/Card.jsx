@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import "../styles/Card.css";
 import { useEffect, useState } from "react";
 
 function Card({ poke, onClick }) {
